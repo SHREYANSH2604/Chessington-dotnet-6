@@ -1,3 +1,5 @@
+******** testing jenkins trigger *********
+
 # Chessington
 
 A .NET 6 port of the original [.NET Framework exercise](https://github.com/CorndelWithSoftwire/Chessington).
