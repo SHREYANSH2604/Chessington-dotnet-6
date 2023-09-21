@@ -12,7 +12,7 @@ namespace Chessington.GameEngine.Tests
         {
             var board = new Board();
             var pawn = new Pawn(Player.White);
-            board.AddPiece(Square.At(0, 4), pawn);
+            board.AddPiece(Square.At(0, 0), pawn);
 
             board.GetPiece(Square.At(0, 0)).Should().BeSameAs(pawn);
         }
@@ -22,7 +22,7 @@ namespace Chessington.GameEngine.Tests
         {
             var board = new Board();
             var pawn = new Pawn(Player.White);
-            var square = Square.At(6, 0);
+            var square = Square.At(6, 4);
             board.AddPiece(square, pawn);
 
             var location = board.FindPiece(pawn);
